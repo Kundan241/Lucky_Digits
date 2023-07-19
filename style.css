@@ -1,3 +1,59 @@
+/* styles.css */
+
 :root{
+    --primary-color:#009688;
+    --primary-color-2ndShade:#6d7d7c;
+    --background-color:#f0f0f0;
+    --secondary-color:#fff;
+}
+
+body{
+    background-color: var(--background-color);
+    font-family:sans-serif;
+    
+
+}
+main{
+    background-color: var(--secondary-color);
+    display: flex;
+    color: var(--primary-color);
+    flex-direction: column;
+    max-width: 70vw;
+    margin: auto;
+    border-radius: 0.25rem;
+    padding: 2rem;
+
+}
+input{
+    width: 50%;
+    font-family: inherit;
+    padding: 0.65rem;
+    border-radius: 0.25rem;
+    margin: 1rem 0;
+    border: 1px solid #d1d0d0;
+
+}
+main button{
+ width: 30%;
+ padding:0.55rem 1rem;
+ font-size: 0.75rem;
+ color: var(--secondary-color);
+ font-family: inherit;
+ font-weight: bold;
+ border-radius: 0.25rem;
+ border: 1px solid grey;
+ background-color: var(--primary-color);
+}
+
+/* for mobile  */
+
+@media screen and (max-width:600px) {
+ main{
+    padding: 1rem;
+ }   
+ input,button{
+    font-size: 1rem;
+    padding:0.5rem;
+ }
     
 }
