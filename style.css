@@ -48,17 +48,17 @@ main button{
 
 footer {
     display:block;
-    
-
+   
     background-color: var(--secondBackground-color);
     padding: 10px;
     text-align: center;
 }
 
 footer p {
+    color: var(--primary-color);
     margin: 0;
     padding: 0;
-    color: var(--secondary-color);
+   
 }
 
 footer ul {
@@ -68,12 +68,6 @@ footer ul {
     display: flex;
     justify-content: center;
 }
-
-
-
-
-
-
 footer li {
     margin: 0 5px;
 }
